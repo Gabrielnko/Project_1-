@@ -115,9 +115,11 @@ button{
 }
 .navbar a{
     color: black;
+    transition: ease-in-out 0.3s;
 }
 .navbar a:hover{
     color: brown;
+    font-size: 20px;
 }
 .h1{
     margin-top: 25px;
