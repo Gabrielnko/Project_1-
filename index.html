@@ -3,67 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Burger King News</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <div class="header_background"> 
-        <div id="wrap">
-            <ul class="navbar">
-                <li>
-                    <a href="#">Accueil</a>
-                </li>
-                <li>
-                    <a href="">Nouveauté</a>
-                </li>
-                <li>
-                    <a href="">S'inscrire</a>
-                </li>
-                </li>
-            </ul>
-        </div>
-            <img class="logo" src="./assets/Logo.png" alt="">
-            <div><h1 class="h1">"slogan here"</h1></div>
+        <ul class="navbar">
+            <li>
+                <a href="#panel1">Nouveauté</a>
+            </li>
+            <li>
+                <a href="#panel2">Résumé</a>
+            </li>
+            <li>
+                <a href="#panel3">S'inscrire</a>
+            </li>
+            </li>
+        </ul>
+        <img class="logo" src="./assets/Logo.png" alt="">
+        <h1 class="h1">"Fast, Fresh and flavour, <br>Goûter la couronne a domicile"</h1>
     </div>
 
-    <div class="container">
+    <div class="container" id="panel1">
         <img src="./assets/desktop/BK_Rebrand_Stills.jpg" alt="">
         <div class="text-box">
-            "Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-            labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-            commodo consequat. Duis aute irure dolor in reprehenderit in 
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-            deserunt mollit anim id est laborum."
+            Bienvenue dans l'ère de la livraison Burger King 2.0 !
+            <br>Nous sommes ravis de vous présenter notre tout nouveau 
+            service de livraison Burger King, conçu pour vous offrir une expérience gastronomique 
+            exceptionnelle dans le confort de votre domicile. 
+            Chez Burger King, nous nous engageons à satisfaire vos papilles gustatives avec 
+            nos délicieux burgers et nos irrésistibles frites depuis des décennies, 
+            et maintenant, nous le faisons encore mieux avec notre service de livraison amélioré.
         </div>
     </div>
 
     <div class="banner">
         <img src="./assets/desktop/burger_king_rebrand.webp" alt="">
     </div>
-    
-    <div class="container reverse">
+
+    <div class="container reverse" id="panel2">
         <img src="./assets/desktop/BK_Rebrand_Stills_2.jpg" alt="">
         <div class="text-box">
-            "Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-            labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-            commodo consequat. Duis aute irure dolor in reprehenderit in 
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-            deserunt mollit anim id est laborum."
+            Pour résumer, le nouveau service de livraison Burger King 
+            est synonyme de saveurs inégalées, de rapidité, de simplicité et de qualité. 
+            Laissez-nous vous gâter avec une expérience culinaire à la maison qui vous laissera envie de revenir pour plus.
+            Commandez dès maintenant et 
+            laissez-nous vous montrer pourquoi Burger King est le roi des burgers, même à la maison !
         </div>
     </div>
 
-    <div class="banner">
+    <div class="banner sticky">
         <img src="./assets/desktop/Burger_King_Loyalty_Program.jpg" alt="">
     </div>
 
-</body>
-<footer class="footer">
+
+<footer class="footer" id="panel3">
         <div class="child"> 
             <img class="logo2" src="./assets/Logo.png" alt="">
                 <div class="bloc">
@@ -87,4 +81,6 @@
         </div>
         </div>
 </footer>
+<button><a href="#panel3">telechargez l'app</a></button>
+</body>
 </html>
