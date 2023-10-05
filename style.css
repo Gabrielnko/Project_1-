@@ -1,4 +1,10 @@
+@font-face {
+    font-family: bk;
+    src: url(./Insanibc.ttf) format("truetype");
+}
 *{
+    font-family: bk;
+    font-weight: 400;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -7,13 +13,6 @@
 }
 body{
     background-color: #f4ebdc;
-}
-.container{ 
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    max-width: 80%;
-    margin: 0 auto;
 }
 .blox1,.blox2,.blox3{
     flex-grow: 1;
@@ -31,16 +30,14 @@ body{
     width: 250px;
 }
 .logo2{
-    
     width: 130px;
     padding: 20px;
+    margin-bottom: 20px;
 }
 .footer{
     display: flex;
     justify-content: space-between;
-    padding: 0px 40px;
-    color: white;
-    background-color: rgb(63, 58, 75); 
+    padding: 40px;
     text-align: start;
     align-items: center;
     width: 100%;
@@ -71,12 +68,10 @@ button{
     padding-bottom: 15px;
 }
 .img1{
-    height: 150px;
-    width: 150px;
+    height: 50px;
 }
 .img2{
-    height: 150px;
-    width: 190px;
+    height: 50px;
 }
 #wrap {
     display: flex;
@@ -93,12 +88,13 @@ button{
 .header_background{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-image: url("./assets/Header_Background.png");
     height: 100vh;
     width: 100vw;
     margin: 0 auto;
+    padding: 100px ;
 }
 .navbar{
     display: flex;
@@ -108,9 +104,44 @@ button{
     border: 1px solid white ;
     border-radius: 10px ;
     background-color: white;
-    width: 250px;
-    height: 25px;
-    
+    width: 280px;
+    height: 25px;  
+}
+.navbar a{
+    color: black;
+}
+.navbar a:hover{
+    color: brown;
+}
+.h1{
+    margin-top: 25px;
+    color: brown;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 15px;
+}
+.container img{
+    width: 650px;
+    padding: 50px;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+.text-box{
+    width: 500px;
+    line-height: 2em;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.banner img{
+    width: 100%;
 }
 
 F4EBDC
