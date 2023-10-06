@@ -1,0 +1,24 @@
+Presentation partie Dev : 
+
+Landing page : 
+- globalement ce dont je me suis le plus servie c'est les flexbox, c'est comme ça que j'ai consrtuit ma page. j'ai donc creer different container et pannel
+- pour les differentes images j'ai reussi a trouver une sorte de design systeme de burger king, ce qui m'as aussi permis de récupérer leur font que j'ai appliquer a l'ensemble du documents.
+
+Footer : 
+- Mais du coup je vais partir dans l'autre sens car J'ai commencer par le footer ce qui n'etait pas forcement une bonne idée, mais cela ma permis de me familiariser avec ces fameuse flexbox, j'ai donc creer une grand div qui en contient 2 qui elle meme en contienent plusieur c'est comme ça que je l'ai organiser 
+
+Header : 
+- Navbar border radius et lien vers les differents pannels de landing page  + animation sur le hover et une autre animation pour que chaque lien defile doucemennts vers le panel en question + agrandissement du text et changement de couleur (ça c'est averer plus simple que ce que je pensais)
+- j'ai mis une image de map en background pour rappeler le service de livraion que mes camarades vous précèdement présenter, j'ai aussi eu une idée de slogan qui je trouve fonctionnent bien en plus du logo 
+
+Corps : 
+- j'ai simplement rempli avec du content accrocheur pour donner envie au utilisateur, mais c'est pas le plus important, par contre on avait la condition de mettre un elements sticky et pas la navbar evidement, j'ai donc choisi d'ajouter un bouton sur lequel j'ai applique le hover mais surtout un link vers un formulaire d'inscription que j'au aussi organiser avec une flex box et un background sur lequel j'ai aussi appliquer un blur.
+
+- Présentez le responsive des deux pages
+
+Pain points : 
+- donc globalement les pain points c'est je pense les flexbox et tout l'organistaion et le placements des differents elements de la page, j'ai parfois passer beaucoup de temps a essayer de comprendre pourquoi je n'arrivais pas centrer tel ou tel elements, mais j'ai suivi les conseil de notre cher profs et graçe a l'inspecteur d'éléments on arrive plus facilements a detecter les elements bloquants.
+
+Learning points : 
+premièremet je ne savais pas que l'on pouvait faire des petites animations seulements avec du CSS et j'ai trouver ça plutot simples et surtout tres agréables 
+    
